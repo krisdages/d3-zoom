@@ -21,15 +21,16 @@
   },
   "type": "module",
   "files": [
-    "dist/**/*.js",
+    "dist",
     "src/**/*.js"
   ],
   "module": "src/index.js",
-  "main": "src/index.js",
+  "main": "dist/d3-zoom.min.cjs",
   "jsdelivr": "dist/d3-zoom.min.js",
   "unpkg": "dist/d3-zoom.min.js",
   "exports": {
     "umd": "./dist/d3-zoom.min.js",
+    "require": "./dist/d3-zoom.min.cjs",
     "default": "./src/index.js"
   },
   "dependencies": {
